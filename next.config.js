@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true },
-  basePath: '/NK_battery_web',
-  assetPrefix: '/NK_battery_web/',
+  basePath: '/NK_battery_web',   // ชื่อ repo
+  assetPrefix: '/NK_battery_web/', // บังคับให้โหลดไฟล์จาก path นี้
   images: {
-    unoptimized: true, // ถ้าใช้ <Image> ให้ disable optimization
+    unoptimized: true,
   },
   reactStrictMode: true,
   swcMinify: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
