@@ -2,13 +2,12 @@
   "name": "nk-battery-web",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "deploy": "npm run build && git push origin `git subtree split --prefix out main`:gh-pages --force",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "next": "14.0.0",
     "react": "^18.2.0",

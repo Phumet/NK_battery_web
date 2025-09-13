@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',             // ใช้สำหรับ static export
-  basePath: '/NK_battery_web',  // ชื่อ repo
-  assetPrefix: '/NK_battery_web/',  // ใช้สำหรับ static assets
+  output: 'export',   // เพื่อ build เป็น static HTML
+  basePath: '',       // ไม่ต้องมี basePath สำหรับ Netlify
+  assetPrefix: '',    // ไม่ต้องมี assetPrefix สำหรับ Netlify
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
-  swcMinify: true,
+  trailingSlash: true, // ช่วยเวลา deploy
 };
 
 module.exports = nextConfig;
