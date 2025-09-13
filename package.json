@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "npm run build && git push origin `git subtree split --prefix out main`:gh-pages --force",
     "start": "next start",
     "lint": "next lint"
   },

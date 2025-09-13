@@ -3,42 +3,42 @@ export default function Brands() {
     {
       name: "FB BATTERY",
       description: "แบตเตอรี่รถยนต์ FB BATTERY",
-      image: "/img/bt01.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt01.png`
     },
     {
       name: "3K BATTERY", 
       description: "แบตเตอรี่รถยนต์ 3K BATTERY",
-      image: "/img/bt02.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt02.png`
     },
     {
       name: "GS BATTERY",
       description: "แบตเตอรี่รถยนต์ GS BATTERY", 
-      image: "/img/bt03.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt03.png`
     },
     {
       name: "BOLIDEN",
       description: "แบตเตอรี่รถยนต์ BOLIDEN",
-      image: "/img/bt04.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt04.png`
     },
     {
       name: "BOSCH",
       description: "แบตเตอรี่รถยนต์ BOSCH BATTERY",
-      image: "/img/bt05.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt05.png`
     },
     {
       name: "Panasonic",
       description: "แบตเตอรี่รถยนต์ Panasonic",
-      image: "/img/bt06.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt06.png`
     },
     {
       name: "PUMA BATTERY",
       description: "แบตเตอรี่รถยนต์ PUMA BATTERY",
-      image: "/img/bt07.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt07.png`
     },
     {
       name: "VARTA",
       description: "แบตเตอรี่รถยนต์ VARTA BATTERY",
-      image: "/img/bt08.png"
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/bt08.png`
     }
   ];
 

@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/NK_battery_web',   // ชื่อ repo
-  assetPrefix: '/NK_battery_web/', // บังคับให้โหลดไฟล์จาก path นี้
+  output: 'export',             // ใช้สำหรับ static export
+  basePath: '/NK_battery_web',  // ชื่อ repo
+  assetPrefix: '/NK_battery_web/',
   images: {
     unoptimized: true,
   },

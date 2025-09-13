@@ -1,49 +1,49 @@
 export default function Gallery() {
   const images = [
     {
-      src: "/img/ex01.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex01.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ 3K BATTERY",
       title: "เปลี่ยนแบตเตอรี่ 3K BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ 3K BATTERY"
     },
     {
-      src: "/img/ex02.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex02.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ FB BATTERY",
       title: "เปลี่ยนแบตเตอรี่ FB BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ FB BATTERY"
     },
     {
-      src: "/img/ex03.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex03.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ GS BATTERY",
       title: "เปลี่ยนแบตเตอรี่ GS BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ GS BATTERY"
     },
     {
-      src: "/img/ex04.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex04.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ GB BATTERY",
       title: "เปลี่ยนแบตเตอรี่ GB BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ GB BATTERY"
     },
     {
-      src: "/img/ex05.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex05.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ FB BATTERY",
       title: "เปลี่ยนแบตเตอรี่ FB BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ FB BATTERY"
     },
     {
-      src: "/img/ex06.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex06.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ 3K BATTERY",
       title: "เปลี่ยนแบตเตอรี่ 3K BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ 3K BATTERY"
     },
     {
-      src: "/img/ex07.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex07.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ GS BATTERY",
       title: "เปลี่ยนแบตเตอรี่ GS BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ GS BATTERY"
     },
     {
-      src: "/img/ex08.png",
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/ex08.png`,
       alt: "เปลี่ยนแบตเตอรี่รถยนต์ 3K BATTERY",
       title: "เปลี่ยนแบตเตอรี่ 3K BATTERY",
       description: "บริการเปลี่ยนแบตเตอรี่รถยนต์ยี่ห้อ 3K BATTERY"

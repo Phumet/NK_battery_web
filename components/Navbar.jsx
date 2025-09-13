@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="bg-primary text-white p-4 flex justify-between items-center shadow-md sticky top-0 z-50">
       <div className="flex items-center gap-3">
         <img 
-          src="/img/NK.ico" 
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/img/NK.ico`} 
           alt="NK Battery Icon" 
           className="w-8 h-8 rounded-full"
         />
