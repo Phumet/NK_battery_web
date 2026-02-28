@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nk-battery-ayutthaya.vercel.app/sitemap.xml
+Sitemap: https://nk-battery-web.vercel.app/sitemap.xml
