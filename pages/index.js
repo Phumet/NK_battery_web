@@ -13,14 +13,14 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "@id": "https://nk-battery-ayutthaya.vercel.app",
-    "name": "NK แบตเตอรี่อยุธยา",
-    "image": "https://nk-battery-ayutthaya.vercel.app/img/NK.ico",
-    "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ตลอด 24 ชั่วโมง ในพื้นที่จังหวัดพระนครศรีอยุธยาและใกล้เคียง มีหน้าร้านชัดเจน แบตครบทุกยี่ห้อ รับประกันคุณภาพ",
+    "@id": "https://nk-battery-web.vercel.app",
+    "name": "NK แบตเตอรี่อยุธยา - บริการเปลี่ยนแบตเตอรี่รถยนต์ 24 ชั่วโมง",
+    "image": "https://nk-battery-web.vercel.app/img/NK.ico",
+    "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ถึงที่ตลอด 24 ชั่วโมง ในพื้นที่จังหวัดพระนครศรีอยุธยา บางปะหัน และใกล้เคียง ช่างแบตมืออาชีพ มีหน้าร้านชัดเจน แบตครบทุกยี่ห้อ FB 3K GS BOSCH Panasonic รับประกันคุณภาพ ราคาย่อมเยา",
     "telephone": "+66924782591",
     "email": "nkbattery.ayutthaya@gmail.com",
-    "url": "https://nk-battery-ayutthaya.vercel.app",
-    "logo": "https://nk-battery-ayutthaya.vercel.app/img/NK.ico",
+    "url": "https://nk-battery-web.vercel.app",
+    "logo": "https://nk-battery-web.vercel.app/img/NK.ico",
     "priceRange": "฿฿",
     "address": {
       "@type": "PostalAddress",
@@ -103,9 +103,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NK แบตเตอรี่อยุธยา - บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ 24 ชม. | โทร 092-478-2591</title>
-        <meta name="description" content="บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ถึงที่ภายใน 30 นาที พระนครศรีอยุธยา บางปะหัน ราคาถูก มีหน้าร้าน แบตครบทุกยี่ห้อ FB 3K GS BOSCH Panasonic รับประกันคุณภาพ โทร 092-478-2591 ช่างเก่ง" />
-        <link rel="canonical" href="https://nk-battery-ayutthaya.vercel.app/" />
+        <title>เปลี่ยนแบตเตอรี่รถยนต์ อยุธยา บางปะหัน 24 ชม. ถึงที่ | NK แบตเตอรี่ 092-478-2591</title>
+        <meta name="description" content="บริการเปลี่ยนแบตเตอรี่รถยนต์ พระนครศรีอยุธยา บางปะหัน ถึงที่ภายใน 30 นาที ตลอด 24 ชั่วโมง ช่างแบตมืออาชีพ ราคาถูก มีหน้าร้าน แบตครบทุกยี่ห้อ FB 3K GS BOSCH Panasonic VARTA รับประกันคุณภาพ โทร 092-478-2591 ช่างเก่ง NK แบตเตอรี่อยุธยา" />
+        <link rel="canonical" href="https://nk-battery-web.vercel.app/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
