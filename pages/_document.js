@@ -45,6 +45,178 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://www.google.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://nk-battery-web.vercel.app/" />
+        
+        {/* Structured Data - LocalBusiness Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "@id": "https://nk-battery-web.vercel.app/#organization",
+              "name": "NK แบตเตอรี่อยุธยา",
+              "alternateName": "NK Battery Ayutthaya",
+              "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง ในพื้นที่จังหวัดพระนครศรีอยุธยา และใกล้เคียง ราคาย่อมเยา มีหน้าร้าน รับประกันคุณภาพ",
+              "image": "https://nk-battery-web.vercel.app/img/NK.ico",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://nk-battery-web.vercel.app/img/NK.ico"
+              },
+              "url": "https://nk-battery-web.vercel.app/",
+              "telephone": "+66924782591",
+              "priceRange": "฿฿",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "โพธิ์สามต้น 3",
+                "addressLocality": "Bang Pahan",
+                "addressRegion": "Phra Nakhon Si Ayutthaya",
+                "postalCode": "13220",
+                "addressCountry": "TH"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "14.435540",
+                "longitude": "100.542060"
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "00:00",
+                "closes": "23:59"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+66924782591",
+                "contactType": "customer service",
+                "areaServed": "TH",
+                "availableLanguage": ["Thai"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/p/NK-%E0%B9%81%E0%B8%9A%E0%B8%95%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2-0924782591-100057278176698/?locale=th_TH",
+                "https://line.me/ti/p/~keng2822"
+              ],
+              "areaServed": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "14.435540",
+                  "longitude": "100.542060"
+                },
+                "geoRadius": "50000"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "บริการแบตเตอรี่รถยนต์",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "เปลี่ยนแบตเตอรี่รถยนต์",
+                      "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ ครบทุกยี่ห้อ"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "ตรวจเช็คแบตเตอรี่ฟรี",
+                      "description": "ตรวจสอบสภาพแบตเตอรี่รถยนต์ฟรี ไม่มีค่าใช้จ่าย"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "บริการฉุกเฉิน 24 ชั่วโมง",
+                      "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์ฉุกเฉิน ตลอด 24 ชั่วโมง"
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
+
+        {/* Structured Data - BreadcrumbList */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "หน้าหลัก",
+                  "item": "https://nk-battery-web.vercel.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "อาการแบตเสื่อม",
+                  "item": "https://nk-battery-web.vercel.app/#symptoms"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "บริการ",
+                  "item": "https://nk-battery-web.vercel.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "ยี่ห้อแบตเตอรี่",
+                  "item": "https://nk-battery-web.vercel.app/#brands"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "ติดต่อ",
+                  "item": "https://nk-battery-web.vercel.app/#contact"
+                }
+              ]
+            })
+          }}
+        />
+
+        {/* Structured Data - Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://nk-battery-web.vercel.app/#organization",
+              "name": "NK แบตเตอรี่อยุธยา",
+              "url": "https://nk-battery-web.vercel.app/",
+              "logo": "https://nk-battery-web.vercel.app/img/NK.ico",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+66924782591",
+                "contactType": "customer service",
+                "areaServed": "TH",
+                "availableLanguage": "Thai"
+              },
+              "sameAs": [
+                "https://www.facebook.com/p/NK-%E0%B9%81%E0%B8%9A%E0%B8%95%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2-0924782591-100057278176698/?locale=th_TH",
+                "https://line.me/ti/p/~keng2822"
+              ]
+            })
+          }}
+        />
       </Head>
       <body>
         <Main />

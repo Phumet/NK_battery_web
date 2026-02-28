@@ -1,9 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- หน้าหลัก -->
   <url>
     <loc>https://nk-battery-web.vercel.app/</loc>
     <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/NK.ico</image:loc>
+      <image:title>NK แบตเตอรี่อยุธยา</image:title>
+      <image:caption>โลโก้ NK แบตเตอรี่อยุธยา - บริการเปลี่ยนแบตเตอรี่รถยนต์ 24 ชั่วโมง</image:caption>
+    </image:image>
   </url>
+
+  <!-- Section อาการแบตเสื่อม -->
+  <url>
+    <loc>https://nk-battery-web.vercel.app/#symptoms</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Section บริการ -->
+  <url>
+    <loc>https://nk-battery-web.vercel.app/#services</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Section ยี่ห้อแบตเตอรี่ -->
+  <url>
+    <loc>https://nk-battery-web.vercel.app/#brands</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt01.png</image:loc>
+      <image:title>FB BATTERY</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt02.png</image:loc>
+      <image:title>3K BATTERY</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt03.png</image:loc>
+      <image:title>GS BATTERY</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt04.png</image:loc>
+      <image:title>BOLIDEN</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt05.png</image:loc>
+      <image:title>BOSCH</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt06.png</image:loc>
+      <image:title>Panasonic</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt07.png</image:loc>
+      <image:title>PUMA BATTERY</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nk-battery-web.vercel.app/img/bt08.png</image:loc>
+      <image:title>VARTA</image:title>
+    </image:image>
+  </url>
+
+  <!-- Section ผลงาน -->
+  <url>
+    <loc>https://nk-battery-web.vercel.app/#gallery</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Section ติดต่อ -->
+  <url>
+    <loc>https://nk-battery-web.vercel.app/#contact</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
